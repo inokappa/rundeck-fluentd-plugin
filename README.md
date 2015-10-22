@@ -9,6 +9,8 @@ Very helpful for me.
 
 Thank you very much.
 
+***
+
 ## Installation
 
 Copy the `FluentdPlugin.groovy` to your `$RDECK_BASE/libext/` directory for Rundeck.
@@ -19,10 +21,14 @@ Enable the plugin in your `rundeck-config.properties` file:
 rundeck.execution.logs.streamingWriterPlugins=FluentdPlugin
 ```
 
+***
+
 ## Dependency library
 
 - msgpack-0.6.12.jar
 - javassist-3.17.1-GA.jar
+
+***
 
 ## Configure Rundeck
 
@@ -48,6 +54,8 @@ project.plugin.StreamingLogWriter.FluentdPlugin.port=9700
 project.plugin.StreamingLogWriter.FluentdPlugin.host=localhost
 ```
 
+***
+
 ## Configure Fluentd
 
 Refer to following `rundeck-fluentd.conf`:
@@ -63,6 +71,8 @@ Refer to following `rundeck-fluentd.conf`:
   type stdout
 </match>
 ```
+
+***
 
 ## Start Fluentd
 
