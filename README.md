@@ -43,14 +43,14 @@ You can update the your framework/project.properties file to set these configura
 in `framework.properties`:
 
 ```
-framework.plugin.StreamingLogWriter.FluentdPlugin.port=9700
+framework.plugin.StreamingLogWriter.FluentdPlugin.port=24224
 framework.plugin.StreamingLogWriter.FluentdPlugin.host=localhost
 ```
 
 or in `project.properties`:
 
 ```
-project.plugin.StreamingLogWriter.FluentdPlugin.port=9700
+project.plugin.StreamingLogWriter.FluentdPlugin.port=24224
 project.plugin.StreamingLogWriter.FluentdPlugin.host=localhost
 ```
 
